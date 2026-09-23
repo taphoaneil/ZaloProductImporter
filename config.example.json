@@ -1,0 +1,15 @@
+{
+  "imei": "imei_zalo_web",
+  "cookies": {"ex": "cookie_zalo_web"},
+  "endpoints": {
+    "login_info": "https://wpa.chat.zalo.me/api/login/getLoginInfo",
+    "product_create": "https://catalog.chat.zalo.me/api/prodcatalog/product/create?zpw_ver=686&zpw_type=30",
+    "product_photo_upload": "https://tt-files-wpa.chat.zalo.me/api/product/upload/photo?zpw_ver=686&zpw_type=30",
+    "product_list": "https://catalog.chat.zalo.me/api/prodcatalog/product/list?zpw_ver=686&zpw_type=30",
+    "catalog_list": "https://catalog.chat.zalo.me/api/prodcatalog/catalog/list?zpw_ver=686&zpw_type=30"
+  },
+  "batch": {
+    "delay_seconds": 0.5,
+    "stop_on_quota_error": true
+  }
+}
